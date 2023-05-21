@@ -16,7 +16,7 @@ test("「カウントアップ」押下で現在のカウントが+1されるか
   // arrange
   render(<Counter initialCount={0} />);
 
-  // act (なし)
+  // act (ボタンをクリック)
   const button = screen.getByRole("button");
   fireEvent.click(button);
 
